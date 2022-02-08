@@ -1,0 +1,216 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .section-title h3 {
+        font-weight: bolder;
+        margin-bottom: 0;
+    }
+    
+    .hr-style {
+        border: 5px dotted black;
+        border-bottom: none;
+        width: 80px;
+        margin: 0 auto
+    }
+    /*-----------header section starts--------------*/
+    
+    .header-icon {
+        width: 100px;
+    }
+    
+    .navbar {
+        padding: 1% 8%;
+        background-color: rgba(0, 0, 0, .2);
+    }
+    
+    .navbar-icon {
+        color: white;
+    }
+    
+    .nav-link {
+        color: white;
+        margin: 10px;
+        border-radius: 5px;
+        transition: 0.4s;
+    }
+    
+    .nav-link:hover {
+        background: #2980df;
+        color: white;
+        outline-offset: white;
+        transform: scale(1.1);
+    }
+    
+    header {
+        background-image: url(images/bg-1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: cover;
+        background-size: cover;
+    }
+    
+    .banner-container {
+        height: 100vh;
+    }
+    
+    .banner-content h1 {
+        font-size: 50px;
+        background-color: rgba(7, 101, 189, 0.8);
+        padding: 10px 20px;
+        font-family: 'Handlee', cursive;
+    }
+    /*-----------header section ends--------------*/
+    /*-----------feature section starts--------------*/
+    
+    #feature {
+        padding: 5% 10%;
+        background: #e8ded2;
+    }
+    
+    .feature-col {
+        border: 1px solid #ff02c0;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 20px 0;
+        transition: 0.4s;
+    }
+    
+    .feature-col:hover {
+        box-shadow: 2px 6px 5px black;
+        transform: scale(1.1);
+    }
+    
+    .icon-style {
+        background: #bb0aac;
+        color: white;
+        padding: 15px;
+        margin: 5px 0;
+    }
+    /*-----------feature section ends--------------*/
+    /*-----------about me section starts--------------*/
+    
+    #about-me {
+        padding: 4% 10%;
+        background: #e8ded2;
+    }
+    
+    #about-me a {
+        font-size: 0.9rem;
+        font-weight: lighter;
+        color: black;
+        text-decoration: underline;
+    }
+    
+    #about-me p {
+        font-size: 14px;
+        margin-bottom: 0;
+        font-weight: lighter;
+    }
+    
+    span {
+        font-weight: bold;
+    }
+    
+    .star {
+        width: 20px;
+    }
+    /*-----------about me  section ends--------------*/
+    /*-----------Services section starts--------------*/
+    
+    #service {
+        padding: 4% 10%;
+        background: #a3d2ca;
+    }
+    
+    .service-desc h2 {
+        background: rgba(7, 101, 189, 0.8);
+        color: white;
+    }
+    
+    .card {
+        border-radius: 10px;
+        transition: 0.4s;
+    }
+    
+    .card:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 8px 10px black;
+    }
+    /*-----------Services section ends--------------*/
+    /*-----------feedback section starts--------------*/
+    
+    #feedback {
+        padding: 4% 10%;
+        background: #5eaaa8;
+    }
+    
+    .carousel-item {
+        padding: 5% 10%
+    }
+    
+    .feedback-img {
+        width: 250px;
+        height: auto
+    }
+    /*-----------feedback section ends--------------*/
+    /*-----------contact section starts--------------*/
+    
+    #contact-section {
+        padding: 4% 10%;
+        background: #5eaaa8;
+    }
+    
+    .form-group label {
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+    /*-----------contact section ends--------------*/
+    /*-----------footer section starts--------------*/
+    
+    footer {
+        padding: 1% 10%;
+        background: #056676
+    }
+    
+    footer a {
+        color: white;
+        margin: 0 10px;
+        font-size: 20px
+    }
+    
+    footer a:hover {
+        color: black
+    }
+    /*-----------footer section ends--------------*/
+    
+    @media(max-width:768px) {
+        .nav-link {
+            background: rgb(0, 0, 0, 0.7)
+        }
+        .nav-link:hover {
+            background: white;
+            color: black
+        }
+        .banner-content h1 {
+            font-size: 40px;
+        }
+    }
